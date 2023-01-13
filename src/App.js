@@ -23,8 +23,7 @@ const styles = () => ({
 });
 
 function App() {
-	const classes = styles();
-	
+	const classes = styles();	
 	const [open, setOpen] = useState(false);
 	const toggleShow = () => setOpen(!open);
 	const [dialogState, setDialogState] = useState({ open: false, edit: false });
@@ -106,8 +105,7 @@ function App() {
 				columns={columns}
 				options={options}
 				/>
-				
-				
+								
 				<Dialog
 				fullWidth={500}
 				open={open}
